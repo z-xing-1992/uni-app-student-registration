@@ -1,0 +1,86 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		 {
+		 	"path": "pages/studentsCenter/studentsCenter",
+		 	"style":{
+		 		"h5":{
+		 			"titleNView": false
+		 		}
+		 	}
+		 },
+		 {
+		  	"path": "pages/index/index",
+		  	"style":{
+		  		"h5":{
+		  			"titleNView": false
+		  		}
+		  	}
+		  },
+		{
+			"path": "pages/switchStudents/switchStudents",
+			"style":{
+				"h5":{
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/studentInformation/studentInformation",
+			"style":{
+				"h5":{
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/notice/notice",
+			"style":{
+				"h5":{
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/financial/financial",
+			"style":{
+				"h5":{
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/speech/speech",
+			"style":{
+				"h5":{
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/speech/wanRelease",
+			"style":{
+				"h5":{
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/video/video",
+			"style":{
+				"h5":{
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/reportingGuidelines/reportingGuidelines",
+			"style":{
+				"h5":{
+					"titleNView": false
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationStyle":"custom",
+		"app-plus": {
+			"titleNView": false
+		}
+	}
+}
